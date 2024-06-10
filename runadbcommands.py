@@ -28,6 +28,7 @@ if __name__ == "__main__":
         run_adb_command(device, "settings put global adaptive_power_saving_setting 0"),
         run_adb_command(device, "dumpsys deviceidle whitelist +tech.ula"),
         run_adb_command(device, "dumpsys battery set level 100"),  # Removed extra "shell"
+        run_adb_command(device, "dumpsys battery set temp 100"), 
         run_adb_command(device, "settings put global window_animation_scale 0"),
         run_adb_command(device, "settings put global transition_animation_scale 0"),
         run_adb_command(device, "settings put global animator_duration_scale 0"),

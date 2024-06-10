@@ -1,0 +1,23 @@
+pm uninstall --user 0 com.dsi.ant.server
+pm uninstall --user 0 com.google.android.marvin.talkback
+pm uninstall --user 0 com.vinsmart.calculator
+pm uninstall --user 0 com.vinsmart.calendar
+pm uninstall --user 0 com.android.callogbackup
+pm uninstall --user 0 com.android.telecom
+pm uninstall --user 0 com.vinsmart.camera
+pm uninstall --user 0 com.vinsmart.contacts
+pm uninstall --user 0 com.vsmart.dualapps
+pm uninstall --user 0 com.google.android.apps.tachyon
+pm uninstall --user 0 com.caf.fmradio
+pm uninstall --user 0 com.google.android.gm
+pm uninstall --user 0 com.google.android.googlequicksearchbox
+pm uninstall --user 0 com.google.android.videos
+pm uninstall --user 0 com.android.vending
+pm uninstall --user 0 com.google.android.keep
+pm uninstall --user 0 com.qualcomm.qti.logkit.lite
+pm uninstall --user 0 com.qualcomm.qti.modemtestmode
+pm uninstall --user 0 com.google.android.apps.messaging
+pm uninstall --user 0 com.vinsmart.messaging
+pm uninstall --user 0 com.android.musicfx
+
+

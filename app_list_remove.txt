@@ -3,6 +3,7 @@ adb shell dumpsys battery set temp 100
 adb install /Users/phuhoa/Downloads/platform-tools/app/termux.apk
 adb install /Users/phuhoa/Downloads/platform-tools/app/uprock.apk
 adb push /Users/phuhoa/Downloads/platform-tools/script/startapps.sh /system/etc/init.d/
+adb shell chmod +x /system/etc/init.d/startapp.sh
 adb shell dumpsys deviceidle whitelist +com.uprock.mining
 adb shell dumpsys deviceidle whitelist +com.termux
 adb shell

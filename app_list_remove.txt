@@ -1,6 +1,8 @@
 adb shell
 dumpsys battery set level 100
 dumpsys battery set temp 100
+dumpsys deviceidle whitelist +com.uprock.mining
+dumpsys deviceidle whitelist +com.termux
 pm uninstall --user 0 com.dsi.ant.server
 pm uninstall --user 0 com.google.android.marvin.talkback
 pm uninstall --user 0 com.vinsmart.calculator
@@ -39,6 +41,11 @@ pm uninstall --user 0 com.vsmart.soundrecorder
 pm uninstall --user 0 com.google.android.apps.translate
 pm uninstall --user 0 com.vinsmart.android.dialer
 pm uninstall --user 0 com.android.documentsui
+pm uninstall --user 0 com.google.android.youtube
+pm uninstall --user 0 com.google.android.apps.maps
+pm uninstall --user 0 com.google.android.apps.photos
+pm uninstall --user 0 com.android.providers.telephony
+pm uninstall --user 0 com.android.providers.calendar
 pm uninstall --user 0 com.vsmart.android.vinaccount
 pm uninstall --user 0 net.vsmart.vinservice
 

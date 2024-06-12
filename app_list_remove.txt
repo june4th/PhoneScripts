@@ -51,6 +51,7 @@ pm uninstall --user 0 com.google.android.apps.maps
 pm uninstall --user 0 com.google.android.apps.photos
 pm uninstall --user 0 com.android.providers.telephony
 pm uninstall --user 0 com.android.providers.calendar
+pm uninstall --user 0 com.google.android.apps.docs
 pm uninstall --user 0 com.vsmart.android.vinaccount
 pm uninstall --user 0 net.vsmart.vinservice
 

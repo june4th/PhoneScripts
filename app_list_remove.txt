@@ -2,9 +2,9 @@ adb shell dumpsys battery set level 100
 adb shell dumpsys battery set temp 100
 adb install /Users/phuhoa/Downloads/platform-tools/app/termux.apk
 adb install /Users/phuhoa/Downloads/platform-tools/app/uprock.apk
+adb push /Users/phuhoa/Downloads/platform-tools/script/startapps.sh /system/etc/init.d/
 adb shell dumpsys deviceidle whitelist +com.uprock.mining
 adb shell dumpsys deviceidle whitelist +com.termux
-adb push /Users/phuhoa/Downloads/platform-tools/script/startapps.sh /system/etc/init.d/
 adb shell
 pm uninstall --user 0 com.dsi.ant.server
 pm uninstall --user 0 com.google.android.marvin.talkback

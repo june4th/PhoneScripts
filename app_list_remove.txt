@@ -8,6 +8,7 @@ adb install /Users/phuhoa/Downloads/platform-tools/app/dien.apk
 adb shell dumpsys deviceidle whitelist +com.uprock.mining
 adb shell dumpsys deviceidle whitelist +com.termux
 adb shell
+### For JOY stock
 pm uninstall --user 0 com.dsi.ant.server
 pm uninstall --user 0 com.google.android.marvin.talkback
 pm uninstall --user 0 com.vinsmart.calculator
@@ -54,6 +55,14 @@ pm uninstall --user 0 com.android.providers.calendar
 pm uninstall --user 0 com.google.android.apps.docs
 pm uninstall --user 0 com.vsmart.android.vinaccount
 pm uninstall --user 0 net.vsmart.vinservice
-
-
-
+### For lineageOS
+pm uninstall --user 0 org.lineageos.audiofx
+pm uninstall --user 0 com.android.calculator2
+pm uninstall --user 0 org.lineageos.etar
+pm uninstall --user 0 com.android.deskclock
+pm uninstall --user 0 com.android.contacts
+pm uninstall --user 0 com.simplemobiletools.gallery.pro
+pm uninstall --user 0 org.lineageos.eleven
+pm uninstall --user 0 com.android.dialer
+pm uninstall --user 0 org.lineageos.recorder
+pm uninstall --user 0 com.android.messaging

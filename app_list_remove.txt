@@ -30,15 +30,15 @@ pm uninstall --user 0 com.qualcomm.qti.modemtestmode
 pm uninstall --user 0 com.google.android.apps.messaging
 pm uninstall --user 0 com.vinsmart.messaging
 pm uninstall --user 0 com.android.musicfx
-#pm uninstall --user 0 com.google.android.deskclock
+pm uninstall --user 0 com.google.android.deskclock
 pm uninstall --user 0 com.example.connmgr
 pm uninstall --user 0 com.google.android.apps.youtube.music
-#pm uninstall --user 0 com.qualcomm.wfd.service
+pm uninstall --user 0 com.qualcomm.wfd.service
 pm uninstall --user 0 com.vsmart.android.vsmartwarranty
 pm uninstall --user 0 com.vinsmart.vboard
 pm uninstall --user 0 com.vingroup.vinid
 pm uninstall --user 0 org.codeaurora.snapcam
-#pm uninstall --user 0 com.qualcomm.qct.dlt
+pm uninstall --user 0 com.qualcomm.qct.dlt
 pm uninstall --user 0 com.qualcomm.qti.sensors.qsensortest
 pm uninstall --user 0 com.qualcomm.qti.qmmi
 pm uninstall --user 0 com.qualcomm.qti.presenceappSub2
@@ -53,8 +53,6 @@ pm uninstall --user 0 com.google.android.apps.photos
 pm uninstall --user 0 com.android.providers.telephony
 pm uninstall --user 0 com.android.providers.calendar
 pm uninstall --user 0 com.google.android.apps.docs
-pm uninstall --user 0 com.vsmart.android.vinaccount
-pm uninstall --user 0 net.vsmart.vinservice
 ### For lineageOS
 pm uninstall --user 0 org.lineageos.audiofx
 pm uninstall --user 0 com.android.calculator2
